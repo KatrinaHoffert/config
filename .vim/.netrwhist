@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/google/src/cloud/katmitchell/gke-katmitchell-hosted-master/google3/cloud/kubernetes'
+let g:netrw_dirhist_2='/google/src/cloud/katmitchell/gke-katmitchell-hosted-master/google3/cloud/kubernetes/server'
+let g:netrw_dirhist_3='/google/src/cloud/katmitchell/gke-katmitchell-hosted-master/google3/cloud/kubernetes'
+let g:netrw_dirhist_4='/google/src/cloud/katmitchell/gke-katmitchell-hosted-master/google3/cloud/kubernetes/server'
+let g:netrw_dirhist_5='/google/src/cloud/katmitchell/gke-katmitchell-hosted-master/google3/cloud/kubernetes'
+let g:netrw_dirhist_6='/google/src/cloud/katmitchell/gke-katmitchell-hosted-master/google3/cloud/kubernetes/server'
+let g:netrw_dirhist_7='/google/src/cloud/katmitchell/gke-katmitchell-hosted-master/google3/cloud/kubernetes'
+let g:netrw_dirhist_8='/google/src/cloud/katmitchell/gke-katmitchell-hosted-master/google3/cloud/kubernetes/server'
+let g:netrw_dirhist_9='/google/src/cloud/katmitchell/gke-katmitchell-hosted-master/google3/production/borg/cloud-kubernetes/templates'
