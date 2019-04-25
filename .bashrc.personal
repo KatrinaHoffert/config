@@ -168,7 +168,7 @@ fi
 ####### Options
 
 # Eg, `kmitchell@Kats-desktop:/mnt/c(123)$ `
-PS1="\[${BCyan}\]\u\[${NC}\]@\[${CNX}\]\h\[${NC}\]:\[${Green}\](\!)\[${Purple}\]\$ \[${NC}\]"
+PS1="\[${BCyan}\]\u\[${NC}\]@\[${CNX}\]\h\[${NC}\]:\[${Green}\](\t)\[${Purple}\]\$ \[${NC}\]"
 
 # LESS man page colors (makes man pages more readable).
 export LESS_TERMCAP_mb=$'\E[01;31m'
