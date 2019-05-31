@@ -181,6 +181,11 @@ set smarttab
 set shiftwidth=4
 set tabstop=4
 
+" Autowrap some files at 80 characters
+au FileType gitcommit setlocal tw=80
+au FileType hgcommit setlocal tw=80
+au FileType *.md setlocal tw=80
+
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
