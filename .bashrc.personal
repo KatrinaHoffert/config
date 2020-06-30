@@ -8,6 +8,7 @@
 alias o=xdg-open
 
 # List all, in long format, with type indicators, human readable bytes
+alias ls='ls --color=auto'
 alias ll='ls -alFh --time-style=long-iso'
 alias lls='ll -S' # Sorted by file size
 alias llt='ll -t' # Sorted by time

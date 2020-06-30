@@ -10,6 +10,7 @@ set background=light
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/ctrlp.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
@@ -54,6 +55,8 @@ set encoding=utf8
 " Use Unix as the standard file type
 set ffs=unix,dos,mac
 
+" Folding is hard to work with
+set nofoldenable
 
 " Sets how many lines of history VIM has to remember
 set history=700
@@ -211,9 +214,17 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=252 ctermfg=245
 nnoremap <F7> :tabprevious<CR>
 noremap <F8> :tabnext<CR>
 nnoremap <C-t> :tabnew<CR>
+:nnoremap <C-n> :bnext<CR>
+:nnoremap <C-p> :bprevious<CR>
 
 " Tab line uses airline
 let g:airline#extensions#tabline#enabled = 1
+
+" Try to fix CTRL-arrows?
+map <ESC>[5D <C-Left>
+map <ESC>[5C <C-Right>
+map! <ESC>[5D <C-Left>
+map! <ESC>[5C <C-Right>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Status line
