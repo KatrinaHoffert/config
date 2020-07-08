@@ -261,3 +261,7 @@ func! Tab(var1)
 	IndentGuidesEnable
 endfunc
 command! -nargs=1 T call Tab(<f-args>)
+
+" w!! writes with sudo (for when we make changes to a read only file).
+" https://stackoverflow.com/a/48237738
+cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!
